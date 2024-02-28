@@ -50,10 +50,12 @@ section{
 }
 
 .btn{
-    margin-top: 3rem;
+    /* margin-top: 3rem;
     margin-right: 2rem;
-    margin-left: 2rem;
+    margin-left: 2rem; */
+    margin: 2rem;
     display: inline-block;
+    text-align: center;
     padding:1rem 3.5rem;
     border-radius: .5rem;
     font-size: 1.7rem;
@@ -200,7 +202,7 @@ section{
     position: relative;
     top: 10rem;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     padding:1rem;
 }
 
@@ -483,8 +485,8 @@ section{
 
 
 .img-svg{
-    max-width: 100%; /* Hình ảnh sẽ co giãn để không vượt quá kích thước chiều rộng của trang */
-    max-height: 100%; /* Hình ảnh sẽ co giãn để không vượt quá kích thước chiều cao của trang */
+    max-width: 60%; /* Hình ảnh sẽ co giãn để không vượt quá kích thước chiều rộng của trang */
+    max-height: 60%; /* Hình ảnh sẽ co giãn để không vượt quá kích thước chiều cao của trang */
 }
 
 .bt-dow{
@@ -512,6 +514,10 @@ section{
 .detail{
     display: flex;
     justify-content: space-between;
+}
+
+.detail p{
+    display: block;
 }
 
 .name{

@@ -44,7 +44,7 @@
 
 <!-- theme toggler  -->
 
-<div id="theme-toggler" class="fas fa-moon"></div>
+<div id="theme-toggler" class="fas fa-sun"></div>
 
 <!-- home section starts  -->
 <section class="home" id="home">
@@ -118,13 +118,11 @@
 <section class="portfolio" id="portfolio">
 
     <h1 class="heading"> my <span>CV</span> </h1>
-    <div class="bt-dow">
-        <a href="image/CV_PhamLeHuy.pdf" download="CV_PhamLeHuy.pdf">
-            Download CV
-        </a>
+    <div class="img-cv">
+        <a href="image/CV_PhamLeHuy.pdf" class="btn" download="CV_PhamLeHuy.pdf">Download CV</a>
     </div>
     <div class="img-cv">
-        <img class="img-svg" src="/image/CV_TiengViet-1.svg" alt="SVG Image">
+        <img class="img-svg" src="/image/CV_TiengViet.png" alt="PNG Image">
     </div>
     
 
@@ -149,10 +147,10 @@
     <div class="row">
 
         <div class="progress">
-            <h3> web design <span>90%</span> </h3>
+            <h3> web design <span>80%</span> </h3>
+            <div class="bar bar-1-3"><span></span></div>
+            <h3> graphic design <span>90%</span> </h3>
             <div class="bar bar-1-1"><span></span></div>
-            <h3> graphic design <span>75%</span> </h3>
-            <div class="bar bar-1-2"><span></span></div>
             <h3> UI/UX design <span>80%</span> </h3>
             <div class="bar bar-1-3"><span></span></div>
             <h3> Edit <span>95%</span> </h3>
@@ -165,7 +163,7 @@
             <h3> HTML <span>95%</span> </h3>
             <div class="bar bar-2-1"><span></span></div>
             <h3> CSS <span>80%</span> </h3>
-            <div class="bar bar-2-2"><span></span></div>
+            <div class="bar bar-1-3"><span></span></div>
             <h3> javascript <span>65%</span> </h3>
             <div class="bar bar-2-3"><span></span></div>
             <h3> C# <span>95%</span> </h3>
@@ -176,58 +174,67 @@
 
     </div>
 
-    <div class="row">
-        <div class="content">
-            <h3>Kinh nghiệm <span>Làm Việc</span></h3>
-            <div class="experian">
-                <p><strong class="name">Công Ty TNHH Mtv Dịch Vụ Công Nghệ Tin Đại Phát</strong></p>
-                <p><strong>Thời gian:</strong> 10/2022 - 3/2023</p>
-                <p><strong>Mô tả:</strong> Thiết kế Web, Banner, Video theo yêu cầu. Quản lý các Zalo OA của tp Biên Hòa.</p>
-            </div>
-
-            <h3>Dự án<span> Tham Gia</span></h3>
-            <div class="project">
-                <p><strong class="name">Web MVC Model-Cửa hàng thời trang</strong></p>
-                <div class="detail">
-                    <p><strong>Thời gian: </strong> 3 tuần </p>
-                    <p><strong>Thành viên: </strong> 3 </p>
-                    <p><strong>Vị trí:</strong>Project Manager, Designer, Dev</p>
-                </div>
-                <p><strong>Mô tả:</strong> Thiết kế websites bán hàng theo mô hình MVC. Là bài thi lấy điểm cuối môn.</p>
-            </div>
-            <div class="project">
-                <p><strong class="name">Mobile React Native-Drink ordering app</strong></p>
-                <div class="detail">
-                    <p><strong>Thời gian: </strong> 3 tuần</p>
-                    <p><strong>Thành viên: </strong> 2 </p>
-                    <p><strong>Vị trí:</strong>Project Manager, Designer, Dev</p>
-                </div>
-                <p><strong>Mô tả:</strong> Thiết kế App bán hàng bằng React Native. App chay dược trên các thiết bị khác nhau.</p>
-            </div>
-            <div class="project">
-                <p><strong class="name">Game Color Circle</strong></p>
-                <div class="detail">
-                    <p><strong>Video:</strong> <a href="https://youtu.be/szR_9jakg_s">youtu.be/szR_9jakg_s</a></p>
-                    <p><strong>GitHub:</strong> <a href="https://github.com/hyu939/ColorCircle.git">github.com/hyu939/ColorCircle.git</a></p>
-                </div>
-                <p><strong>Mô tả:</strong> Dự án game cá nhân được phát triển trong quá trình tự tìm hiểu về unity. Sau phát triển lên thành đồ án tốt nghiệp.</p>
-            </div>
-            <div class="project">
-                <p><strong class="name">Game TileMaster</strong></p>
-                <div class="detail">
-                    <p><strong>Video:</strong> <a href="https://youtu.be/u5npr2vJUsk">youtu.be/u5npr2vJUsk</a></p>
-                    <p><strong>GitHub:</strong> <a href="https://github.com/hyu939/PrototypeTilesMaster.git">github.com/hyu939/PrototypeTilesMaster.git</a></p>
-                </div>
-                <p><strong>Mô tả:</strong> Dự án game cá nhân được phát triển trong quá trình tự tìm hiểu về làm game 3d. Sau đó thêm Handtracking vào.</p>
-            </div>
-        </div>
-
-    </div>
+    
+    
 </section>
 <!-- about section ends -->
 
+<section class="about" id="about">
+    <h1 class="heading"> <span>about</span> me </h1>
+    <div class="row">
+        <div class="content">
+            <h3>Kinh nghiệm <span>Làm Việc</span></h3>
+            <p><strong class="name">Công Ty TNHH Mtv Dịch Vụ Công Nghệ Tin Đại Phát</strong></p>
+            <p><strong>Thời gian:</strong> 10/2022 - 3/2023</p>
+            <p><strong>Mô tả:</strong> Thiết kế Web bán các sản phẩm số như kháo học, gói wifi... viết bài Seo cho trang. Thiết kế Banner cho app, thiết kế tờ rơi cho sự kiện. Làm Video theo yêu cầu về nguồn nước trong khu vực. Quản lý các Zalo OA của tp Biên Hòa, thu thập thông tin khiếu nại của người dân.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="content">
+            <h3>Dự án<span> Tham Gia</span></h3>
+            <p><strong class="name">Web MVC Model-Cửa hàng thời trang</strong></p>
+            <div class="detail">
+                <p><strong>Thời gian: </strong> 3 tuần </p>
+                <p><strong>Thành viên: </strong> 3 </p>
+                <p><strong>Vị trí:</strong>Project Manager, Designer, Dev</p>
+            </div>
+            <p><strong>Mô tả:</strong> Thiết kế websites bán hàng theo mô hình MVC. Là bài thi lấy điểm cuối môn.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="content">
+            <p><strong class="name">Mobile React Native-Drink ordering app</strong></p>
+            <div class="detail">
+                <p><strong>Thời gian: </strong> 3 tuần</p>
+                <p><strong>Thành viên: </strong> 2 </p>
+                <p><strong>Vị trí:</strong>Project Manager, Designer, Dev</p>
+            </div>
+            <p><strong>Mô tả:</strong> Thiết kế App bán hàng bằng React Native. App chay dược trên các thiết bị khác nhau.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="content">
+            <p><strong class="name">Game Color Circle</strong></p>
+            <div class="detail">
+                <p><strong>Video:</strong> <a href="https://youtu.be/szR_9jakg_s">youtu.be/szR_9jakg_s</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/hyu939/ColorCircle.git">github.com/hyu939/ColorCircle.git</a></p>
+            </div>
+            <p><strong>Mô tả:</strong> Dự án game cá nhân được phát triển trong quá trình tự tìm hiểu về unity. Sau phát triển lên thành đồ án tốt nghiệp.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="content">
+            <p><strong class="name">Game TileMaster</strong></p>
+            <div class="detail">
+                <p><strong>Video:</strong> <a href="https://youtu.be/u5npr2vJUsk">youtu.be/u5npr2vJUsk</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/hyu939/PrototypeTilesMaster.git">github.com/hyu939/PrototypeTilesMaster.git</a></p>
+            </div>
+            <p><strong>Mô tả:</strong> Dự án game cá nhân được phát triển trong quá trình tự tìm hiểu về làm game 3d. Sau đó thêm Handtracking vào.</p>
+        </div>
+    </div>
+</section>
 <div class="credits"> this is <span>Pham Le Huy</span> blog</div>
-
+    
 <script src="js/script.js"></script>
 
 </body>
