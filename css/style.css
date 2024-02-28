@@ -50,7 +50,9 @@ section{
 }
 
 .btn{
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     display: inline-block;
     padding:1rem 3.5rem;
     border-radius: .5rem;
@@ -85,7 +87,7 @@ section{
     z-index: 1000;
     background: var(--bg-color);
     width: 30rem;
-    border-right: var(--border);
+    /* border-right: var(--border); */
     height: 100%;
     padding:2rem;
     text-align: center;
@@ -474,15 +476,49 @@ section{
     color: var(--green);
 }
 
+.img-cv{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
 
 
+.img-svg{
+    max-width: 100%; /* Hình ảnh sẽ co giãn để không vượt quá kích thước chiều rộng của trang */
+    max-height: 100%; /* Hình ảnh sẽ co giãn để không vượt quá kích thước chiều cao của trang */
+}
 
+.bt-dow{
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
 
+.bt-dow a{
+    width: 15%;
+    display: block;
+    margin:1.5rem 0;
+    padding:.7rem;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    box-shadow: var(--box-shadow);
+    color:var(--black);
+    display: flex;
+    justify-content: center;
+}
+.bt-dow a:hover{
+    box-shadow: var(--box-shadow-inset);
+    color: var(--green);
+}
 
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
+.name{
+    font-size: 2rem;
+    color:var(--green);
+    padding-bottom: .5rem;
+}
 
 
 
